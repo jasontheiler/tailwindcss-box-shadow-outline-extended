@@ -1,0 +1,31 @@
+{
+  "name": "tailwindcss-box-shadow-outline-extended",
+  "version": "0.1.0",
+  "description": "A Tailwind CSS plugin that generates extended box shadow outline utilities with color and opacity options.",
+  "license": "MIT",
+  "author": "Jason Theiler <turret.jason@outlook.com",
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "box-shadow",
+    "outline",
+    "color",
+    "opacity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasontheiler/tailwindcss-box-shadow-outline-extended"
+  },
+  "bugs": {
+    "url": "https://github.com/jasontheiler/tailwindcss-box-shadow-outline-extended/issues"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json,md}\""
+  },
+  "dependencies": {
+    "color": "^3.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
