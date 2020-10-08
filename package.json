@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-box-shadow-outline-extended",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Tailwind CSS plugin that generates extended box shadow outline utilities with color and opacity options.",
   "license": "MIT",
   "author": "Jason Theiler <turret.jason@outlook.com",
