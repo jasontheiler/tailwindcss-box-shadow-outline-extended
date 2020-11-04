@@ -1,22 +1,13 @@
-<h1 align="center">Tailwind CSS Box Shadow Outline Extended</h1>
+<div align="center">
 
-<h3 align="center">
-  A Tailwind CSS plugin that generates extended box shadow outline utilities with color and opacity options.
-</h3>
+# Tailwind CSS Box Shadow Outline Extended
 
-<br />
+**A Tailwind CSS plugin that generates extended box shadow outline utilities with color and opacity options.**
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/tailwindcss-box-shadow-outline-extended">
-    <img src="https://img.shields.io/npm/v/tailwindcss-box-shadow-outline-extended?style=for-the-badge&logo=npm&label=version" alt="version" />
-  </a>
+[![version](https://img.shields.io/npm/v/tailwindcss-box-shadow-outline-extended?style=flat-square&logo=npm&label=version)](https://www.npmjs.com/package/tailwindcss-box-shadow-outline-extended)
+[![downloads](https://img.shields.io/npm/dw/tailwindcss-box-shadow-outline-extended?style=flat-square&logo=docusign&logoColor=FFFFFF)](https://www.npmjs.com/package/tailwindcss-box-shadow-outline-extended)
 
-  <a href="https://www.npmjs.com/package/tailwindcss-box-shadow-outline-extended">
-    <img src="https://img.shields.io/npm/dw/tailwindcss-box-shadow-outline-extended?style=for-the-badge&logo=docusign&logoColor=FFFFFF" alt="downloads" />
-  </a>
-</p>
-
-<br />
+</div>
 
 ## Installation
 
@@ -115,8 +106,8 @@ If you want to customize which variants are generated for the `shadow-outline-{c
 ```js
 module.exports = {
   variants: {
-    boxShadowOutline: ["responsive", "hover", "focus", "focus-within"],
-    boxShadowOutlineOpacity: ["responsive", "hover", "focus", "focus-within"],
+    boxShadowOutline: ["responsive", "hover", "focus", "focus-visible"],
+    boxShadowOutlineOpacity: ["responsive", "hover", "focus", "focus-visible"],
   },
 }
 ```
