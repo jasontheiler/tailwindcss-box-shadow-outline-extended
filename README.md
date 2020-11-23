@@ -9,6 +9,10 @@
 
 </div>
 
+## Deprecation
+
+This plugin is now deprecated. Please use the new and more flexible [`ring` utilities](https://tailwindcss.com/docs/ring-width) that were introduced in [Tailwind CSS v2.0](https://blog.tailwindcss.com/tailwindcss-v2).
+
 ## Installation
 
 Add the `tailwindcss-box-shadow-outline-extended` dependency to your project:
